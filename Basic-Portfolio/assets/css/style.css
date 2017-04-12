@@ -15,6 +15,12 @@ h1 {
 	margin: 0px auto;
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	color: #FFFFFF;
+	font-size: 36px;
+}
+h1,
+h2,
+h3 {
+	font-weight: bold;
 }
 section {
 	background-color: #ffffff;
