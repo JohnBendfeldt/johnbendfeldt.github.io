@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<div id="main-menu">
+	<header>
+		<div class="banner">
+			<h1>John Bendfeldt</h1>
+<!-- Navigational links. -->
+			<div class="link-box">
+				<a href="index.html">About | </a>
+				<a href="portfolio.html">Porfolio | </a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+	</header>
+</div>
+<body>
+	<div class="content">
+		<section class="container">
+			<h2>Contact</h2>
+  			<form action="/action_page.php">
+			<br>
+    		<label for="name">Name</label>
+    		<input type="text" id="name" name="name" placeholder="John Smith">
+	
+    		<label for="email">Email</label>
+    		<input type="text" id="email" name="email_address" placeholder="example@gmail.com">
+
+    		<label for="message">Message</label>
+    		<textarea id="message" name="message" placeholder="Tell me something awesome..." style="height:200px"></textarea>
+
+    		<input type="submit" value="Submit">
+
+  			</form>
+		</section>
+		<section class="connect">
+			<h3>Connect with Me</h3>
+			<br>
+			<a href="https://github.com/alil0rphan" target="_blank"><img src="assets/images/Github-icon.png" class="icons" alt="Github-icon" title="GitHub"></a>
+			<a href="https://www.linkedin.com/in/john-bendfeldt-b32736130/" target="_blank"><img src="assets/images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn"></a>
+			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank"><img src="assets/images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow"></a>
+		</section>
+	</div>
+</body>
+<footer>
+	© Copywrite 2017 John Bendfeldt
+</footer>
+<!-- makes the header transparent on scroll -->
+<script type="text/javascript">
+	window.addEventListener('scroll', function () {
+  	document.body.classList[
+    window.scrollY > 20 ? 'add': 'remove'
+  ]('scrolled');
+});
+</script>
+</html>
