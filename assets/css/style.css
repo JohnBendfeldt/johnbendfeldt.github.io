@@ -85,7 +85,7 @@ nav a:first-child {
 }
 /* Establish main unique block on each page */
 .content {
-	width: 60%;
+	width: 55%;
 	border: solid 2px #dddddd;
 	float: left;
 	margin: 115px 0px 200px 0px;
@@ -154,7 +154,7 @@ p {
 /* cat pictures and parameters established with hover features*/
 .cats {
 	display: inline-block;
-	margin: 10px 40px 40px 0px;
+	margin: 15px 15px;
 	width: 230px;
 	z-index: 16;
 }
@@ -181,7 +181,7 @@ h4 {
    text-align: center;
    padding: 10px 0px 10px 0px;
    margin: auto;
-   left: 0px;
+   left: 15px;
    bottom: 50px;
 }
 /* Establishes sticky footer */
@@ -260,6 +260,15 @@ script {
 	.container {
 		width: 100%;
 	}
+	p {
+		font-size: 18px;
+	}
+	a {
+		font-size: 18px;
+	}
+	h4 {
+		font-size: 18px;
+	}
 }
 @media screen and (max-width: 640px) {
 	header {
@@ -275,12 +284,14 @@ script {
 		width: 100%;
 	}
 	.content {
-		width: 520px;
+		width: 100%;
+		max-width: 520px;
 		float: none;
 		margin: 75px auto;
 	}
 	.connect {
-		width: 520px;
+		width: 100%;
+		max-width: 520px;
 		margin: 105px auto;
 		float: none;
 	}
@@ -301,6 +312,7 @@ script {
 	}
 	h4 {
 		width: 100%;
+		font-size: 22px;
 	}
 	#face {
 		width: 100%;
@@ -308,9 +320,14 @@ script {
 	}
 	p {
 		display: block;
+		font-size: 22px;
+	}
+	a {
+		font-size: 22px;
 	}
 	body.scrolled #main-menu {
 	opacity: 1;
 	position: static;
+	width: 100%;
 }
 }
