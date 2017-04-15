@@ -64,7 +64,7 @@ body.scrolled #main-menu:hover {
 	display: inline;
 	position: absolute;
 }
-/* Establishes main content parameters (container and connect blocks) */
+/* Establishes main container parameters (content and connect blocks) */
 .container {
 	width: 100%;
 	max-width: 960px;
