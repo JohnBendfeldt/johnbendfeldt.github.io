@@ -61,16 +61,6 @@ body.scrolled #main-menu:hover {
 /* Navbar parameters established */
 nav {
 	float: right;
-	margin-top: 25px;
-}
-nav a {
-	flex: 1;
-  	display: inline-block;
- 	padding-left: 15px;
-	margin-left: 15px;
-	line-height: 18px;
-	color: #999;
-	text-decoration: none;
 }
 
 /* Establish main unique block on each page */
