@@ -109,7 +109,8 @@ p {
 	display: inline;
 	margin-top: 10px;
 	margin-right: 15px;
-	width: 380px;
+	max-width: 380px;
+	width: 100%;
 }
 /* Connections box parameters with icons */
 .connect {
