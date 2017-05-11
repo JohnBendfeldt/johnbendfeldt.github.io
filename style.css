@@ -130,14 +130,15 @@ p {
 	box-shadow: 4px 4px 2px #4AAAA5;
 }
 /* cat pictures and parameters established with hover features*/
-.cats {
+.work {
 	display: flex;
 	justify-content: space-around;
 	width: 230px;
+	height: 200px;
 	z-index: 16;
 	margin: 0px 35px 35px 0px;
 }
-.cats:hover {
+.work:hover {
 	box-shadow: 4px 4px 2px #4AAAA5;
 	z-index: 17;
 }
