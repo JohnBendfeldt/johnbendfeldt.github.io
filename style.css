@@ -18,6 +18,11 @@ h1 {
 	margin: 0px auto;
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	color: #FFFFFF;
+	text-shadow:
+			-1px -1px 0 #D9AF8B,  
+			1px -1px 0 #D9AF8B,
+			-1px 1px 0 #D9AF8B,
+			1px 1px 0 #D9AF8B;
 }
 h1,
 h2,
@@ -129,14 +134,13 @@ p {
 .icons:hover {
 	box-shadow: 4px 4px 2px #4AAAA5;
 }
-/* cat pictures and parameters established with hover features*/
+/* portfolio pictures and parameters established with hover features*/
 .work {
-	display: flex;
-	justify-content: space-around;
 	width: 230px;
-	height: 200px;
+	height: 180px;
 	z-index: 16;
 	margin: 0px 35px 35px 0px;
+	border: 3px solid #D9AF8B;
 }
 .work:hover {
 	box-shadow: 4px 4px 2px #4AAAA5;
@@ -151,7 +155,7 @@ p {
 img {
 	z-index: 20;
 }
-/* establishes parameters for banners over the cat images */
+/* establishes parameters for banners over the portfolio images */
 h4 {
    position: absolute;
    width: 230px;
