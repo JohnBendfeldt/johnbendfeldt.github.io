@@ -8,6 +8,7 @@ body {
 }
 .container {
 	max-width: 960px;
+	width: 100%;
 }
 /* Create Heading block */
 h1 {
@@ -109,7 +110,7 @@ p {
 	color: #777777;
 }
 /* My picture on the index file */
-#face {
+.face {
 	float: left;
 	display: inline;
 	margin-top: 10px;
