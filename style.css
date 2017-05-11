@@ -117,6 +117,9 @@ p {
 	margin-right: 15px;
 	width: 100%;
 }
+.face:hover {
+	box-shadow: 4px 4px 2px #4AAAA5;
+}
 /* Connections box parameters with icons */
 .connect {
 	border: solid 2px #dddddd;
