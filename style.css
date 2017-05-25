@@ -121,14 +121,14 @@ p {
 .face:hover {
 	box-shadow: 4px 4px 2px #4AAAA5;
 }
-.facebook {
+.googlePlus {
 	float: left;
 	display: inline;
 	margin-top: 10px;
 	margin-right: 15px;
 	width: 100%;
 }
-.facebook:hover {
+.googlePlus:hover {
 	box-shadow: 4px 4px 2px #4AAAA5;
 }
 /* Connections box parameters with icons */
