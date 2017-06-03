@@ -44,6 +44,7 @@ header {
 	position: fixed;
 	z-index: 999;
 	right: 0px;
+	box-shadow: 3px 3px 10px #666972;
 }
 /* establishes tranparency on scroll */
 body.scrolled #main-menu {
@@ -77,6 +78,7 @@ nav {
 	margin: 120px auto;
 	padding: 30px;
 	max-width: 650px;
+	box-shadow: 3px 3px 10px #666972;
 }
 /* Link attributes including hover */
 a {
@@ -139,6 +141,7 @@ p {
 	max-width: 650px;
 	overflow: auto;
 	min-width: 200px;
+	box-shadow: 3px 3px 10px #666972;
 }
 /* Establish icon aesthetics and behaviors with hover features */
 .icons {
@@ -202,6 +205,7 @@ footer {
 	font-size: 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	z-index: 96;
+	box-shadow: 3px -3px 10px #666972;
 }
 /* Establishes input attributes for the contact/ message form. */
 input[type=text], select, textarea {
