@@ -165,6 +165,7 @@ p {
 .work:hover {
 	box-shadow: 4px 4px 2px #4AAAA5;
 	z-index: 17;
+	cursor: pointer;
 }
 .image {
    position: relative;
