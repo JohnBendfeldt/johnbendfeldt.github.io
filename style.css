@@ -155,7 +155,6 @@ p {
 }
 /* portfolio pictures and parameters established with hover features*/
 .work {
-	width: 100%;
 	max-width: 230px;
 	height: 180px;
 	z-index: 16;
