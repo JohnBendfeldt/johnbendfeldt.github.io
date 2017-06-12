@@ -330,7 +330,7 @@ label {
 	}
 }
 
-/* Establishes page behavior when screen is 900px or smaller */
+/* Establishes page behavior when screen is 920px or smaller */
 @media screen and (max-width: 920px) {
 	/*Establishes main content parameters */
 	.container {
@@ -356,7 +356,7 @@ label {
 	}
 }
 
-/* When the screen is smaller than 640px */
+/* When the screen is smaller than 800px */
 @media screen and (max-width: 800px) {
 	#face {
 		width: 240px;
