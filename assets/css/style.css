@@ -331,7 +331,7 @@ label {
 }
 
 /* Establishes page behavior when screen is 900px or smaller */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
 	/*Establishes main content parameters */
 	.container {
 		width: 100%;
