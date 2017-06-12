@@ -178,7 +178,7 @@ p {
 	display: inline;
 	margin-top: 10px;
 	margin-right: 15px;
-	max-width: 380px;
+	max-width: 325px;
 	width: 100%;
 }
 
@@ -311,7 +311,7 @@ label {
 }
 
 
-/* Establishes behavior for smaller screens that are 980p or smaller */
+/* Establishes behavior for smaller screens that are 980px or smaller */
 @media screen and (max-width: 980px) {
 	/* Establishes dimensions for the main content area and banner */
 	.banner {
@@ -322,13 +322,16 @@ label {
 		max-width: 920px;
 		width: 100%;
 	}
+	.content {
+		margin-right: 50px;
+	}
 	.icons {
 		margin: 0px 5px 30px 0px;
 	}
 }
 
-/* Establishes page behavior when screen is 768p or smaller */
-@media screen and (max-width: 768px) {
+/* Establishes page behavior when screen is 900px or smaller */
+@media screen and (max-width: 900px) {
 	/*Establishes main content parameters */
 	.container {
 		width: 100%;
@@ -348,9 +351,20 @@ label {
     margin: 95px auto;
     padding: 5%;
 	}
+	#face {
+		margin-bottom: 200px;
+	}
 }
 
-/* When the screen is smaller than 640p */
+/* When the screen is smaller than 640px */
+@media screen and (max-width: 800px) {
+	#face {
+		width: 240px;
+		margin-bottom: 0px;
+	}
+}
+
+/* When the screen is smaller than 640px */
 @media screen and (max-width: 640px) {
 	header {
 		position: static;
@@ -389,7 +403,9 @@ label {
 	/* Changes size for my face on picture */
 	#face {
 		width: 100%;
+		max-width: 600px !important;
 		display: inline;
+		margin-bottom: 0px;
 	}
 	/*Establishes font size for readability on phone */
 	p {
