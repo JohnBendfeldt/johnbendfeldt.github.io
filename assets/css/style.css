@@ -10,7 +10,11 @@ body {
 
 /* Create Heading block */
 h1 {
-	background-color: #4AAAA5;
+	background-color: #00BCD4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00BCD4, #91DBE2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00BCD4, #91DBE2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00BCD4, #91DBE2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00BCD4, #91DBE2); /* Standard syntax */
 	display: inline-block;
 	padding: 25px 20px 0px 20px;
 	height: 55px;
@@ -103,8 +107,14 @@ nav a:hover {
 }
 
 .active:hover {
-	box-shadow: 2px 2px 4px #7B7B7B;
-	background-color: #cccccc;
+	box-shadow: 2px 2px 4px #cccccc;
+	background-color: #00BCD4;
+	color: #FFFFFF;
+	text-shadow:
+			-.5px -.5px 0 #D9AF8B,  
+			.5px -.5px 0 #D9AF8B,
+			-.5px .5px 0 #D9AF8B,
+			.5px .5px 0 #D9AF8B;
 }
 
 /* Establishes main container parameters (content and connect blocks) */
@@ -132,12 +142,12 @@ a {
 }
 
 a:hover {
-	color: #4AAAA5;
+	color: #00BCD4;
 }
 
 /* Establishing heading fonts  for container and connect box*/
 h2 {
-	color: #4AAAA5;
+	color: #00BCD4;
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	border-bottom: solid 3px #dddddd;
 	padding-bottom: 20px;
@@ -146,7 +156,7 @@ h2 {
 }
 
 h3 {
-	color: #4AAAA5;
+	color: #00BCD4;
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	border-bottom: solid 1px #dddddd;
 	padding-bottom: 20px;
@@ -191,7 +201,7 @@ p {
 }
 
 .icons:hover {
-	box-shadow: 4px 4px 2px #4AAAA5;
+	box-shadow: 4px 4px 2px #00BCD4;
 }
 
 /* Portfolio pictures and parameters established with hover features*/
@@ -204,7 +214,7 @@ p {
 }
 .w
 ork:hover {
-	box-shadow: 4px 4px 2px #4AAAA5;
+	box-shadow: 4px 4px 2px #00BCD4;
 	z-index: 17;
 }
 
@@ -219,7 +229,7 @@ img {
 }
 
 img:hover {
-	box-shadow: 4px 4px 2px #4AAAA5;
+	box-shadow: 4px 4px 2px #00BCD4;
 }
 
 /* Establishes parameters for banners over the portfolio images */
@@ -227,7 +237,7 @@ h4 {
    position: absolute;
    width: 100%;
    max-width: 220px;
-   background-color: #4AAAA5;
+   background-color: #00BCD4;
    color: #FFFFFF;
    font-family: "Georgia", Times, "Times New Roman", serif;
    text-align: center;
@@ -245,7 +255,7 @@ footer {
 	background-color: #666666;
 	opacity: 0.85;
 	text-align: center;
-	border-top: solid 6px #4AAAA5;
+	border-top: solid 6px #00BCD4;
 	position: fixed;
 	width: 100%;
 	bottom: 0px;
@@ -275,7 +285,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4AAAA5;
+    background-color: #00BCD4;
     color: #FFFFFF;
     padding: 12px 20px;
     border: none;
