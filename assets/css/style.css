@@ -1,7 +1,7 @@
 
 /* Eastablish body parameters */
 body {
-	background-image: url("../images/circlesbg.png");
+	background-image: url("../images/wood_bg.png");
 	background-color: #D7CFC3;
 	color: #777777;
 	margin: 0px auto;
@@ -42,7 +42,7 @@ section {
 /*Establishes header on top */
 header {
 	background-color: #FFFFFF;
-	border-bottom: solid 2px #cccccc;
+	border-bottom: solid 2px #96918d;
 	margin: 0px auto;
 	width: 100%;
 	height: 80px;
@@ -127,7 +127,7 @@ nav a:hover {
 /* Establish main unique block on each page */
 .content {
 	width: 55%;
-	border: solid 2px #dddddd;
+	border: solid 2px #96918d;
 	float: left;
 	margin: 115px 0px 200px 0px;
 	padding: 30px;
@@ -185,7 +185,7 @@ p {
 /* Connections box parameters with icons */
 .connect {
 	width: 25%;
-	border: solid 2px #dddddd;
+	border: solid 2px #96918d;
 	float: right;
 	margin-top: 115px;
 	padding: 30px;
