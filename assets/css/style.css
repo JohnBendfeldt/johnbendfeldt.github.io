@@ -212,8 +212,8 @@ p {
 	margin: 15px 15px 15px 0px;
 	border: 3px solid #D9AF8B;
 }
-.w
-ork:hover {
+
+.work:hover {
 	box-shadow: 4px 4px 2px #00BCD4;
 	z-index: 17;
 }
@@ -234,20 +234,24 @@ img:hover {
 
 /* Establishes parameters for banners over the portfolio images */
 h4 {
-   position: absolute;
-   width: 100%;
-   max-width: 220px;
-   background-color: #00BCD4;
-   color: #FFFFFF;
-   font-family: "Georgia", Times, "Times New Roman", serif;
-   text-align: center;
-   padding: 5px 0px;
-   margin: auto;
-   left: 3px;
-   top: 105px;
-   height: 65px;
-   font-weight: bold;
-   font-size: 20px;
+	background-color: #00BCD4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00BCD4, #91DBE2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00BCD4, #91DBE2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00BCD4, #91DBE2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00BCD4, #91DBE2); /* Standard syntax */
+   	position: absolute;
+   	width: 100%;
+   	max-width: 220px;
+   	color: #FFFFFF;
+   	font-family: "Georgia", Times, "Times New Roman", serif;
+   	text-align: center;
+   	padding: 5px 0px;
+   	margin: auto;
+   	left: 3px;
+   	top: 105px;
+   	height: 65px;
+   	font-weight: bold;
+   	font-size: 20px;
 }
 
 /* Establishes sticky footer */
