@@ -232,8 +232,7 @@ footer {
 	position: fixed;
 	width: 100%;
 	bottom: 0px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 20px 0px;
 	color: #BFBEBC;
 	font-size: 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -302,14 +301,14 @@ script {
     width: 85%;
     border: solid 2px #dddddd;
     float: none;
-    margin: 75px auto;
+    margin: 115px auto;
     padding: 5%;
 	}
 	.connect {
     width: 85%;
     border: solid 2px #dddddd;
     float: none;
-    margin: 75px auto;
+    margin: 95px auto;
     padding: 5%;
 	}
 }
