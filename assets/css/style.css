@@ -359,6 +359,12 @@ label {
 		margin: auto;
 		width: 100%;
 	}
+	.content {
+		margin: 50px auto;
+	}
+	.connect {
+		margin: 75px auto;
+	}
 	/* Makes the header even with centered text */
 	h1 {
 		text-align: center;
