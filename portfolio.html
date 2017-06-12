@@ -3,73 +3,65 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
 </head>
-<div id="main-menu" class="row">
+<div id="main-menu">
 	<header>
 		<div class="banner">
 			<a href="index.html"><h1>John Bendfeldt</h1></a>
 <!-- Navigational links. -->
 			<nav>
-				<ul class="nav nav-tabs">
-  					<li role="presentation"><a href="index.html">About</a></li>
-  					<li role="presentation" class="active"><a href="portfolio.html">Porfolio</a></li>
-  					<li role="presentation"><a href="contact.html">Contact</a></li>
-				</ul>	
+				<a href="index.html">About</a>
+				<a href="portfolio.html" class="active">Porfolio</a>
+				<a href="contact.html">Contact</a>
 			</nav>
 		</div>
 	</header>
 </div>
 <body>
+	<div class="container">
 <!-- Big content box in middle	-->
-<div class="container">
-	<div class="row">
-	<div class="col-md-8">
-		<section class="content">
+			<section class="content">
 			<h2>Portfolio</h2>
 			<br>
 <!-- Images for the main content block -->
-			<a href="https://stumput.github.io/stumpPage.html" target="_blank"><div class="image">
-				<img src="images/stump.gif" class="work" alt="STUMP App">
-				<h4>STUMP App<br>(STUdent Meet uP)</h4>
-			</div></a>
 			<a href="https://johnbendfeldt.github.io/week-4-game/" target="_blank"><div class="image">
-				<img src="images/starwarsrpg.gif" class="work" alt="Star Wars RPG">
+				<img src="assets/images/starwarsrpg.gif" class="work" alt="Star Wars RPG">
 				<h4>Star Wars RPG <br>(Basic Javascript Game)</h4>
 			</div></a>
 			<a href="https://jimmytrivia.github.io/" target="_blank"><div class="image">
-				<img src="images/jjtrivia.gif" class="work" alt="Jimmy John's Trivia">
+				<img src="assets/images/jjtrivia.gif" class="work" alt="Jimmy John's Trivia">
 				<h4>Jimmy John's <br>Menu Quiz</h4>
 			</div></a>
+			<a href="https://stumput.github.io/stumpPage.html" target="_blank"><div class="image">
+				<img src="assets/images/stump.gif" class="work" alt="STUMP App">
+				<h4>STUMP App<br>(STUdent Meet uP)</h4>
+			</div></a>
 			<a href="https://johnbendfeldt.github.io/TrainScheduler/" target="_blank"><div class="image">
-				<img src="images/trainscheduler.gif" class="work" alt="Train Scheduler">
+				<img src="assets/images/trainscheduler.gif" class="work" alt="Train Scheduler">
 				<h4>Train Scheduler<br>(Using Firebase)</h4>
 			</div></a>
-			<a href="https://johnbendfeldt.github.io/Responsive-Portfolio/index.html" target="_blank"><div class="image">
-				<img src="images/responsive_portfolio.gif" class="work" alt="Responsive Portfolio">
-				<h4>A Responsive Portfolio <br>(No Bootstrap)</h4>
+			<a href="https://johnbendfeldt.github.io/Bootstrap-Portfolio/" target="_blank"><div class="image">
+				<img src="assets/images/responsive_portfolio.gif" class="work" alt="Responsive Portfolio">
+				<h4>Bootstrap <br>Portfolio</h4>
 			</div></a>
 			<a href="https://johnbendfeldt.github.io/Hangman-Game/" target="_blank"><div class="image">
-				<img src="images/hangman.gif" class="work" alt="Hangman Game">
+				<img src="assets/images/hangman.gif" class="work" alt="Hangman Game">
 				<h4>Hangman Game <br>(Requires Keyboard)</h4>
 			</div></a>
 		</section>
-	</div>
-<!-- Connect with me box -->
-	<div class="col-md-4">
+<!-- connect with me box -->
 		<section class="connect">
 			<h3>Connect with Me</h3>
 			<br>
-			<a href="https://github.com/johnbendfeldt" target="_blank"><img src="images/Github-icon.png" class="icons" alt="Github-icon" title="GitHub"></a>
-			<a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank"><img src="images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn"></a>
-			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank"><img src="images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow"></a>
+			<a href="https://github.com/johnbendfeldt" target="_blank"><img src="assets/images/Github-icon.png" class="icons" alt="Github-icon" title="GitHub"></a>
+			<a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank"><img src="assets/images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn"></a>
+			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank"><img src="assets/images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow"></a>
 		</section>
 	</div>
-	</div>
-</div>
 </body>
 <footer>
 	© Copywrite 2017 John Bendfeldt
