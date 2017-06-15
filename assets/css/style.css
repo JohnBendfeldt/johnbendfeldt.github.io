@@ -271,41 +271,6 @@ footer {
 	box-shadow: 3px -3px 10px #7B7B7B;
 }
 
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-/* Establishes input attributes for the contact/ message form. */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 2px solid #DDDDDD;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 16px;
-    resize: vertical
-}
-
-input[type=submit] {
-    background-color: #00BCD4;
-    color: #FFFFFF;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Makes the Submit button change color when mouse hovers over */
-input[type=submit]:hover {
-    background-color: #666666;
-}
-
-::-webkit-input-placeholder { /* WebKit browsers */
-    color: #666666;
-    opacity: 0.5 !important;
-}
-
 label {
 	color: #8F7E7F;
 }
