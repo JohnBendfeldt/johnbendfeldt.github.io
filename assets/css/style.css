@@ -48,7 +48,6 @@ header {
 	height: 80px;
 	top: 0px;
 	position: fixed;
-	z-index: 999;
 	box-shadow: 3px 3px 10px #666972;
 }
 
@@ -56,14 +55,12 @@ header {
 body.scrolled #main-menu {
 	opacity: 0.2;
 	transition: opacity .2s;
-	z-index: 998;
 	position: absolute;
 }
 
 body.scrolled #main-menu:hover {
 	opacity: 1.0;
 	transition: opacity .2s;
-	z-index: 997;
 	position: absolute;
 }
 
@@ -139,6 +136,7 @@ a {
 	color: #777777;
 	text-decoration: none;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0px;
 }
 
 a:hover {
@@ -172,13 +170,55 @@ p {
 	color: #777777;
 }
 
+.rotate-container {
+	perspective: 1000px;
+}
+/* flip the pane when hovered */
+	.rotate-container:hover .rotate, .rotate-container.hover .rotate {
+		transform: rotateY(180deg);
+	}
+
+.rotate-container, .front, .back {
+	max-width: 240px;
+	width: 100%;
+}
+
+
+/* flip speed goes here */
+.rotate {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
 /* My picture on the index file */
 #face {
 	float: left;
-	display: inline;
-	margin-top: 10px;
-	margin-right: 15px;
-	max-width: 300px;
+	display: block;
+	margin: 10px 15px 5px 0px;
+	max-width: 240px;
 	width: 100%;
 }
 
@@ -202,34 +242,30 @@ p {
 
 .icons:hover {
 	box-shadow: 4px 4px 2px #00BCD4;
+	transform: rotateY(360deg);
+	transition: 1.5s;
+	transform-style: preserve-3d;
 }
 
 /* Portfolio pictures and parameters established with hover features*/
 .work {
 	width: 220px;
 	height: 180px;
-	z-index: 16;
-	margin: 15px 15px 15px 0px;
 	border: 3px solid #D9AF8B;
-}
-
-.work:hover {
-	box-shadow: 4px 4px 2px #00BCD4;
-	z-index: 17;
 }
 
 .image {
    position: relative;
    display: inline-block;
-   z-index: 1;
+   margin: 15px 15px 15px 0px;
+   height: 186px !important;
 }
 
-img {
-	z-index: 20;
-}
-
-img:hover {
+.image:hover {
 	box-shadow: 4px 4px 2px #00BCD4;
+	transform: rotateY(360deg);
+	transition: 1.5s;
+	transform-style: preserve-3d;
 }
 
 /* Establishes parameters for banners over the portfolio images */
@@ -245,8 +281,7 @@ h4 {
    	color: #FFFFFF;
    	font-family: "Georgia", Times, "Times New Roman", serif;
    	text-align: center;
-   	padding: 5px 0px;
-   	margin: auto;
+   	padding-top: 5px;
    	left: 3px;
    	top: 115px;
    	height: 55px;
@@ -267,26 +302,24 @@ footer {
 	color: #BFBEBC;
 	font-size: 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	z-index: 96;
 	box-shadow: 3px -3px 10px #7B7B7B;
-}
-
-label {
-	color: #8F7E7F;
 }
 
 
 /* Establishes behavior for smaller screens that are 980px or smaller */
 @media screen and (max-width: 980px) {
+
 	/* Establishes dimensions for the main content area and banner */
 	.banner {
 		max-width: 920px;
 		width: 100%;
 	}
+
 	.container {
 		max-width: 920px;
 		width: 100%;
 	}
+
 	.content {
 		margin-right: 50px;
 	}
@@ -294,6 +327,7 @@ label {
 
 /* Establishes page behavior when screen is 920px or smaller */
 @media screen and (max-width: 920px) {
+
 	/*Establishes main content parameters */
 	.container {
 		width: 100%;
@@ -313,40 +347,35 @@ label {
     	margin: 95px auto;
     	padding: 5%;
 	}
-	#face {
-		margin-bottom: 200px;
-	}
-}
-
-/* When the screen is smaller than 800px */
-@media screen and (max-width: 800px) {
-	#face {
-		width: 240px;
-		margin-bottom: 0px;
-	}
 }
 
 /* When the screen is smaller than 640px */
 @media screen and (max-width: 640px) {
+	
 	header {
 		position: static;
 	}
+
 	.container {
 		margin: auto;
 		width: 100%;
 	}
+
 	.content {
 		margin: 50px auto;
 	}
+
 	.connect {
 		margin: 75px auto;
 	}
+
 	/* Makes the header even with centered text */
 	h1 {
 		text-align: center;
 		width: 100%;
 		padding: 10px 0px !important;
 	}
+
 	/* Changes the navbar to be helow the main heading */
 	nav {
 		display: flex;
@@ -359,24 +388,25 @@ label {
 		border-bottom: solid 2px #cccccc;
 		box-shadow: 3px 3px 10px #666972;
 	}
+
 	.active {
 		padding: 0px;
 	}
-	/* Changes size for my face on picture */
-	#face {
-		width: 100%;
-		max-width: 600px !important;
-		display: inline;
-		margin-bottom: 0px;
-	}
+
 	/*Establishes font size for readability on phone */
 	p {
 		display: block;
 	}
+
 	/* Makes the floating header stop from being transparent or scrolling */
 	body.scrolled #main-menu {
 		opacity: 1;
 		position: static;
 		width: 100%;
+	}
+
+	#face, .rotate-container, .front, .back {
+		max-width: 600px !important;
+		margin-bottom: 35px;
 	}
 }
