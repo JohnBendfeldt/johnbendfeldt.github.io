@@ -186,7 +186,7 @@ p {
 
 /* flip speed goes here */
 .rotate {
-	transition: 0.6s;
+	transition: 1.5s;
 	transform-style: preserve-3d;
 
 	position: relative;
@@ -245,7 +245,7 @@ p {
 
 .icons:hover {
 	box-shadow: 4px 4px 2px #00BCD4;
-	transform: rotateY(360deg);
+	transform: rotateX(360deg);
 	transition: 1.5s;
 	transform-style: preserve-3d;
 }
