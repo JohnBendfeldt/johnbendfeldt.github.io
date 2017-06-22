@@ -222,6 +222,9 @@ p {
 	width: 100%;
 }
 
+.boxShadow:hover {
+	box-shadow: 4px 4px 2px #00BCD4;
+}
 /* Connections box parameters with icons */
 .connect {
 	width: 25%;
