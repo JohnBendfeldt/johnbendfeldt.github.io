@@ -228,7 +228,7 @@ p {
 }
 
 .boxShadow:hover {
-	box-shadow: 4px 4px 8px #00BCD4;
+	box-shadow: 4px 4px 4px #00BCD4;
 }
 /* Connections box parameters with icons */
 .connect {
@@ -249,7 +249,7 @@ p {
 }
 
 .icons:hover {
-	box-shadow: 4px 4px 8px #00BCD4;
+	box-shadow: 4px 4px 4px #00BCD4;
 	transform: rotateX(360deg);
 	transition: 1.5s;
 	transform-style: preserve-3d;
@@ -270,7 +270,7 @@ p {
 }
 
 .image:hover {
-	box-shadow: 4px 4px 8px #00BCD4;
+	box-shadow: 4px 4px 4px #00BCD4;
 	transform: rotateY(360deg);
 	transition: 1.5s;
 	transform-style: preserve-3d;
