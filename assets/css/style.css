@@ -271,9 +271,6 @@ p {
 
 .image:hover {
 	box-shadow: 4px 4px 4px #00BCD4;
-	transform: rotateY(360deg);
-	transition: 1.5s;
-	transform-style: preserve-3d;
 }
 
 /* Establishes parameters for banners over the portfolio images */
