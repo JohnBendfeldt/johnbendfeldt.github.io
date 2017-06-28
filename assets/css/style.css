@@ -306,6 +306,7 @@ footer {
 	text-align: center;
 	border-top: solid 6px #00BCD4;
 	position: fixed;
+	z-index: 995 !important;
 	width: 100%;
 	bottom: 0px;
 	padding: 20px 0px;
