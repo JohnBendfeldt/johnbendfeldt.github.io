@@ -104,6 +104,7 @@ nav a:hover {
 	background-color: #1E1E1E;
 	color: #FFFFFF;
 	border-radius: 4px;
+	padding-right: 4px;
 }
 
 .active:hover {
