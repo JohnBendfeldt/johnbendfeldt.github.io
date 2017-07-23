@@ -76,6 +76,10 @@ body.scrolled #main-menu:hover {
 	position: relative;
 }
 
+.logo {
+	height: 106px;
+}
+
 /* Navbar parameters established */
 nav {
   float: right;
