@@ -285,7 +285,12 @@ h4 {
    	left: 3px;
    	top: 3px;
    	font-weight: 900;
-   	font-size: 24px;
+	font-size: 24px;
+	text-shadow:
+			-.5px -.5px 0 #FFFFFF,  
+			.5px -.5px 0 #FFFFFF,
+			-.5px .5px 0 #FFFFFF,
+			.5px .5px 0 #FFFFFF;
 }
 
 /* Establishes sticky footer */
