@@ -281,13 +281,14 @@ h4 {
    	position: absolute;
    	width: 100%;
    	max-width: 220px;
-   	color: #FFFFFF;
+	color: #FFFFFF;
+	opacity: .85;
    	font-family: "Georgia", Times, "Times New Roman", serif;
    	text-align: center;
-   	padding-top: 10px;
+   	padding-top: 5px;
    	left: 3px;
-   	bottom: 15px;
-   	height: 55px;
+   	bottom: 80px;
+   	height: 40px;
    	font-weight: bold;
    	font-size: 20px;
 }
