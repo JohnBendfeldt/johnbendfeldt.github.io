@@ -63,7 +63,6 @@ nav {
   float: right;
   margin-top: 20px;
   text-align: right;
-  right: 15px !important;
 }
 
 nav a {
@@ -373,6 +372,15 @@ footer {
     	margin: 95px 15px;
     	padding: 5%;
 	}
+
+	nav {
+		margin-right: 3px;
+	}
+
+	/* Reveal bottom nav bar for easy navigation */
+	#hiddenNav {
+		visibility: visible;
+	}
 }
 
 /* When the screen is smaller than 640px */
@@ -380,15 +388,15 @@ footer {
 	
 	/*Makes the header smaller for phones */
 	header {
-		height: 63px;
+		height: 58px;
 	}
 
 	.logo {
-		height: 75px;
+		height: 69px;
 	}
 
 	nav {
-		margin-top: 5px;
+		margin-top: 2px;
 	}
 
 	.container {
@@ -416,11 +424,6 @@ footer {
 	.portfolioInfo {
 		width: 100% !important;
 		max-width: 500px !important;
-	}
-
-	/* Reveal bottom nav bar for easy navigation */
-	#hiddenNav {
-		visibility: visible;
 	}
 
 	.portfolioInfo:nth-child(odd) {
