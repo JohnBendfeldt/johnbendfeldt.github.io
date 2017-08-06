@@ -150,7 +150,7 @@ p {
 /* Establishes text for portfolio projects */
 h5 {
 	margin-top: 0px;
-	padding: 4px 2px;
+	padding: 2px 2px;
 	border-bottom: solid 2px #f5e3cf;
 	border-right: solid 2px #f5e3cf;
 }
@@ -159,7 +159,7 @@ h5 {
 	max-width: 230px !important;
 	width: 100%;
 	margin: 15px auto;
-	padding: 2px;
+	padding: 4px;
 	display: inline-block;
 	vertical-align:top;
 	box-shadow: 3px 3px 10px #666972;
