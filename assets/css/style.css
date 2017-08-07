@@ -191,14 +191,12 @@ h5 {
 .rotate {
 	transition: 1.5s;
 	transform-style: preserve-3d;
-
 	position: relative;
 }
 
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -225,8 +223,12 @@ h5 {
 	width: 100%;
 }
 
+.boxShadow {
+	box-shadow: 3px 3px 6px #666972;
+}
+
 .boxShadow:hover {
-	box-shadow: 4px 4px 4px #00BCD4;
+	box-shadow: 3px 3px 6px #00BCD4;
 }
 /* Connections box parameters with icons */
 .connect {
@@ -244,10 +246,11 @@ h5 {
 	margin: 0px 10px 30px 0px;
 	width: 60px;
 	height: 60px;
+	box-shadow: 3px 3px 6px #666972;
 }
 
 .icons:hover {
-	box-shadow: 4px 4px 4px #00BCD4;
+	box-shadow: 3px 3px 6px #00BCD4;
 	transform: rotateX(360deg);
 	transition: 1.5s;
 	transform-style: preserve-3d;
@@ -266,10 +269,11 @@ h5 {
    display: inline-block;
    height: 186px !important;
    z-index: 1 !important;
+   box-shadow: 3px 3px 6px #666972;
 }
 
 .image:hover {
-	box-shadow: 4px 4px 4px #00BCD4;
+	box-shadow: 3px 3px 6px #00BCD4;
 }
 
 /* Establishes parameters for banners over the portfolio images */
