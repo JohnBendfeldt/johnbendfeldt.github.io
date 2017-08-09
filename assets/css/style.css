@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Zilla+Slab+Highlight');
 
 /* Establish body parameters */
 body {
@@ -10,16 +11,23 @@ body {
 
 h2,
 h3 {
-	font-weight: bold;
+	font-family: 'Zilla Slab Highlight', cursive !important;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	color: #000;
 }
 
 section {
-	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, .90);
+}
+
+section:hover {
+	background-color: rgba(255, 255, 255, 1);
 }
 
 /*Establishes header on top */
 header {
-	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, .90);
 	border-bottom: solid 2px #96918d;
 	margin: 0px auto;
 	width: 100% !important;
@@ -28,6 +36,10 @@ header {
 	position: fixed;
 	z-index: 999 !important;
 	box-shadow: 3px 3px 10px #666972;
+}
+
+header:hover {
+	background-color: rgba(255, 255, 255, 1);
 }
 
 /* establishes tranparency on scroll */
@@ -122,21 +134,13 @@ a:hover {
 
 /* Establishing heading fonts  for container and connect box*/
 h2 {
-	color: #00BCD4;
-	font-family: "Georgia", Times, "Times New Roman", serif;
-	border-bottom: solid 3px #f5e3cf;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	font-size: 32px;
+	border-bottom: solid 3px #00BCD4;
+	font-size: 42px;
 }
 
 h3 {
-	color: #00BCD4;
-	font-family: "Georgia", Times, "Times New Roman", serif;
-	border-bottom: solid 2px #f5e3cf;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	font-size: 24px;
+	border-bottom: solid 2px #00BCD4;
+	font-size: 32px;
 }
 
 /* Adjusts line height and paragraphs for the about me section */
@@ -162,6 +166,7 @@ h5 {
 	display: inline-block;
 	vertical-align:top;
 	box-shadow: 3px 3px 10px #666972;
+	background-color: rgba(255, 255, 255, .85);
 }
 
 .portfolioInfo:nth-child(odd) {
