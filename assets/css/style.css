@@ -187,9 +187,12 @@ h5 {
 	}
 
 .rotate-container, .front, .back {
-	max-width: 240px;
 	width: 100%;
 }
+
+#face, .rotate-container, .front, .back {
+		max-width: 800px !important;
+	}
 
 
 /* flip speed goes here */
@@ -223,8 +226,8 @@ h5 {
 #face {
 	float: left;
 	display: block;
-	margin: 10px 15px 5px 0px;
-	max-width: 240px;
+	margin: 10px 15px 35px 0px;
+	max-width: 600px;
 	width: 100%;
 }
 
