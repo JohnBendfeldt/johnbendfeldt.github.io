@@ -18,16 +18,12 @@ h3 {
 }
 
 section {
-	background-color: rgba(255, 255, 255, .90);
-}
-
-section:hover {
 	background-color: rgba(255, 255, 255, 1);
 }
 
 /*Establishes header on top */
 header {
-	background-color: rgba(255, 255, 255, .90);
+	background-color: rgba(255, 255, 255, 1);
 	border-bottom: solid 2px #96918d;
 	margin: 0px auto;
 	width: 100% !important;
@@ -38,13 +34,10 @@ header {
 	box-shadow: 3px 3px 10px #666972;
 }
 
-header:hover {
-	background-color: rgba(255, 255, 255, 1);
-}
 
 /* establishes tranparency on scroll */
 body.scrolled #main-menu {
-	opacity: 0.2;
+	opacity: 0;
 	z-index: 997 !important;
 	transition: opacity .2s;
 	position: absolute;
@@ -79,7 +72,6 @@ nav {
 
 nav a {
   line-height: 18px;
-  color: #999;
   text-decoration: none;
   width: 100px;
   text-align: right;
@@ -88,21 +80,14 @@ nav a {
 }
 
 nav a:hover {
-	box-shadow: 2px 2px 4px #7B7B7B;
-	border-radius: 4px;
-	background-color: #f7ede3;
+	color: #000;
 }
 
 .active {
-	background-color: #1E1E1E;
-	color: #FFFFFF;
-	border-radius: 4px;
 	padding-right: 4px;
+	font-weight: 900;
 }
 
-.active:hover {
-	background-color: #141414 !important;
-}
 
 /* Establishes main container parameters (content and connect blocks) */
 .container {
@@ -129,7 +114,7 @@ a {
 }
 
 a:hover {
-	color: #00BCD4;
+	color: #000;
 }
 
 /* Establishing heading fonts  for container and connect box*/
@@ -182,17 +167,17 @@ h5 {
 	perspective: 1000px;
 }
 /* flip the pane when hovered */
-	.rotate-container:hover .rotate, .rotate-container.hover .rotate {
-		transform: rotateY(180deg);
-	}
+.rotate-container:hover .rotate, .rotate-container.hover .rotate {
+	transform: rotateY(180deg);
+}
 
 .rotate-container, .front, .back {
 	width: 100%;
 }
 
 #face, .rotate-container, .front, .back {
-		max-width: 800px !important;
-	}
+	max-width: 800px !important;
+}
 
 
 /* flip speed goes here */
@@ -235,9 +220,6 @@ h5 {
 	box-shadow: 3px 3px 6px #666972;
 }
 
-.boxShadow:hover {
-	box-shadow: 3px 3px 6px #00BCD4;
-}
 /* Connections box parameters with icons */
 .connect {
 	width: 25%;
@@ -259,9 +241,6 @@ h5 {
 
 .icons:hover {
 	box-shadow: 3px 3px 6px #00BCD4;
-	transform: rotateX(360deg);
-	transition: 1.5s;
-	transform-style: preserve-3d;
 }
 
 /* Portfolio pictures and parameters established with hover features*/
@@ -320,9 +299,7 @@ h4 {
 }
 
 #hiddenNav a:hover {
-	box-shadow: 2px 2px 4px #7B7B7B;
-	border-radius: 4px;
-	background-color: #f7ede3;
+	color: #000;
 }
 
 /* Establishes sticky footer */
