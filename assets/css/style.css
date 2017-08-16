@@ -75,7 +75,6 @@ nav a {
   text-decoration: none;
   width: 100px;
   text-align: right;
-  padding-right: 4px;
   float: right;
 }
 
@@ -84,7 +83,6 @@ nav a:hover {
 }
 
 .active {
-	padding-right: 4px;
 	font-weight: 900;
 }
 
