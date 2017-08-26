@@ -5,8 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>John Bendfeldt</title>
+	<!-- Reset stylesheet -->
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- My StyleSheet -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+	
+	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
@@ -25,24 +29,25 @@
 	<meta name="msapplication-TileImage" content="assets/favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 </head>
-<div id="main-menu">
-	<header>
-		<div class="banner">
-			<a href="index.html"><img src="assets/images/transparent_letter_logo.png" alt="John Bendfeldt logo" title="John Bendfeldt" class="logo"></a>
-<!-- Navigational links. -->
-			<nav>
-				<a href="index.html" class="active">About</a>
-				<br>
-				<a href="portfolio.html">Portfolio</a>
-				<br>
-				<a href="contact.html">Contact</a>
-			</nav>
-		</div>
-	</header>
-</div>
+	
 <body>
+	<div class="preloader"><span class="preloader-gif"></span></div>
+
+	<header class="nav-down">
+				<div class="banner">
+					<a href="index.html"><img src="assets/images/transparent_letter_logo.png" alt="John Bendfeldt logo" title="John Bendfeldt" class="logo"></a>
+		<!-- Navigational links. -->
+					<nav>
+						<a href="#about">About</a>
+						<br>
+						<a href="#portfolio">Portfolio</a>
+						<br>
+						<a href="#contact">Contact</a>
+					</nav>
+				</div>
+	</header>
 <!-- Larger content box -->
-	<div class="container">
+	<div class="container" id="about">
 		<section class="content">
 			<h2>John Bendfeldt</h2>
 			<br>
@@ -74,12 +79,164 @@
 			<br>Proficient and adept at Google Applications
 			<br>Familiar with WebEX, Skype, and other conference call applications </p>
 
-			<div id="hiddenNav">	
-				<a href="index.html" class="active">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			<div>
 		</section>
+		<!-- Portfolio Section -->
+
+		<section class="content" id="portfolio">
+			<h2>Portfolio</h2>
+		<br>
+<!-- Images for the main content block -->
+		<div class="portfolioInfo">
+			<a href="https://johnbendfeldt.github.io/starwarsrpg/" target="_blank">
+				<div class="image">
+					<img src="assets/images/starwarsrpg.gif" class="work" alt="Star Wars RPG" title="Star Wars RPG">
+					<h4>Star Wars<br>RPG</h4>
+				</div>
+			</a>
+			<h5>A Star Wars JavaScript based game that allows users to pick a hero to defeat the other characters. Each character has health points and an attack mode that depends on whether or not they are the hero. Each time there is a clash each character takes damage. Once the health points run out the character is defeated and the user selects another opponent. 
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>JavaScript, jQuery, CSS animation, HTML5</h5>
+		</div>
+
+		<div class="portfolioInfo">
+			<a href="https://jimmytrivia.github.io/" target="_blank">
+				<div class="image">
+					<img src="assets/images/jjtrivia.gif" class="work" alt="Jimmy John's Trivia" title="Jimmy John's Trivia">
+					<h4>Jimmy John's<br>Menu Quiz</h4>
+				</div>
+			</a>
+			<h5>A Jimmy John’s Quiz to help trainees learn the menu. Users have 15 seconds to answer each question. If they guess wrong or run out of time the correct answer appears and then moves on to the next question. The number of correct and incorrect answers is displayed at the end announcing whether or not the user is a Menu Master.
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>JavaScript, jQuery, CSS, HTML5</h5>
+		</div>
+
+		<div class="portfolioInfo">
+			<a href="https://johnsburgersequel.herokuapp.com/" target="_blank">
+				<div class="image">
+					<img src="assets/images/burgers.gif" class="work" alt="Sequelized Burger Bar" title="Sequelized Burger Bar">
+					<h4>John’s Burger Bar</h4>
+				</div>
+			</a>
+			<h5>A burger ordering app that keeps track of orders that are placed and eaten using Sequelize with MySQL. The user inputs the name of the burger they ate or want to order and it is displayed in the correct location. Users can delete burgers they no longer want or order them again after they are pushed into the eaten section. 
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>JavaScript, CSS, HTML5, Express.js, Node.js, Heroku, JawsDB, MySQL, Sequelize</h5>
+		</div>
+
+		<div class="portfolioInfo">
+			<a href="http://friendfinder.us-east-2.elasticbeanstalk.com/" target="_blank">
+				<div class="image">
+					<img src="assets/images/friendfinder.gif" class="work" alt="Friend Finder" title="Friend Finder">
+					<h4>Friend Finder</h4>
+				</div>
+			</a>
+			<h5>An app that has users fill out a brief survey to find which friend they are most compatible with based on the answers supplied and data from previous users.
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>JavaScript, CSS, HTML5, Express.js, Node.js, Bootstrap, Elastic Beanstalk</h5>
+		</div>
+
+		<div class="portfolioInfo">
+			<a href="https://stumput.github.io/stumpPage.html" target="_blank">
+				<div class="image">
+					<img src="assets/images/stump.gif" class="work" alt="STUMP App" title="STUMP App">
+					<h4>STUMP App</h4>
+				</div>
+			</a>
+			<h5>A student meetup app to help groups schedule meeting times and locations. Users can select their availability using Moment.js and find the nearest coffee shop with Wi-Fi using geolocation and Google Places API. 
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>JavaScript, CSS, HTML5, Geolocation, Firebase, Google API, Moment.js</h5>
+		</div>
+
+		<div class="portfolioInfo">
+			<a href="http://johns-restaurant.us-east-2.elasticbeanstalk.com/" target="_blank">
+				<div class="image">
+					<img src="assets/images/johnsrestaurant.gif" class="work" alt="John's Restaurant" title="John's Restaurant">
+					<h4>John's Restaurant<br>Reservation App</h4>
+				</div>
+			</a>
+			<h5>A restaurant reservation app that allows users to see the available tables and make a reservation. If the reservations are full the user is pushed into a wait list. 
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>JavaScript, CSS, HTML5, Express.js, Node.js, Bootstrap, Elastic Beanstalk</h5>
+		</div>
+
+		<div class="portfolioInfo">
+			<a href="https://johnbendfeldt.github.io/TrainScheduler/" target="_blank">
+				<div class="image">
+					<img src="assets/images/trainscheduler.gif" class="work" alt="Train Scheduler" title="Train Scheduler">
+					<h4>Train Scheduler</h4>
+				</div>
+			</a>
+			<h5>A train scheduling app that utilizes Firebase and Moment.js to schedule train rides based on previous user input. Each train stays in the database and shows when the next one will arrive. 
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>JavaScript, CSS, HTML5, jQuery, FIrebase, Moment.js</h5>
+		</div>
+
+		<div class="portfolioInfo">
+			<a href="https://johnbendfeldt.github.io/Hangman-Game/" target="_blank">
+				<div class="image">
+					<img src="assets/images/hangman.gif" class="work" alt="Hangman Game" title="Hangman Game">
+					<h4>Hangman Game</h4>
+				</div>
+			</a>
+			<h5>A Hangman game that uses jQuery to display the letters that users guess. Each time the user wins the word is revealed and victory audio is played. When the user runs out of guesses the correct word appears and a sad song plays.
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>JavaScript, CSS, HTML5, jQuery</h5>
+		</div>
+
+		<div class="portfolioInfo">
+			<a href="https://johnbendfeldt.github.io/ChrisCornell/" target="_blank">
+				<div class="image">
+					<img src="assets/images/chriscornell.gif" class="work" alt="Chris Cornell Tribute" title="Chris Cornell Tribute">
+					<h4>Chris Cornell<br>Tribute</h4>
+				</div>
+			</a>
+			<h5>A tribute to Chris Cornell that uses parallax scrolling to create a fun visual experience.
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>CSS, HTML5, Parallax Scrolling</h5>
+		</div>
+			
+		<div class="portfolioInfo">
+			<a href="https://johnbendfeldt.github.io/starwarscss/" target="_blank">
+				<div class="image">
+					<img src="assets/images/starwarscss.gif" class="work" alt="Star Wars CSS" title="Star Wars CSS">
+					<h4>Star Wars CSS Animation</h4>
+				</div>
+			</a>
+			<h5>A Star Wars animation sequence using only CSS animation. The Star Wars theme plays over a scene of X-Wings being chased by Tie Fighters to a backdrop of stars that create a moving three-dimensional feeling.
+			<br>
+			<br>
+			<span style="font-weight:900 !important;">Technologies Utilized:</span>
+			<br>CSS, HTML5, CSS Animation</h5>
+		</div>
+		</section>
+
+		<!-- Contact section -->
+		<section class="content" id="contact">
+			<h2>Contact</h2>
+			<p style="font-weight:900;">Email me at jfbendfeldt@gmail.com or </p>
+  			<a href="https://plus.google.com/+JohnBendfeldt" target="_blank">
+  				<img src="assets/images/google.jpg" alt="John Bendfeldt google plus" title="Google+" width="100%" class="boxShadow" />
+  				<p style="font-weight:900;">Find me on Google+</p>
+			</a>
+		</section>
+
 <!-- Connect with me box -->
 		<section class="connect">
 			<h3>Connect with Me</h3>
@@ -99,13 +256,58 @@
 <footer>
 	© Copyright 2017 John Bendfeldt
 </footer>
-<!-- makes the header transparent on scroll -->
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>t>
+
+<!-- Preloader js-->
+<script type="text/javascript" src="assets/js/preloader.js"></script>
+
 <script type="text/javascript">
-	window.addEventListener('scroll', function () {
-  	document.body.classList[
-    window.scrollY > 20 ? 'add': 'remove'
-  ]('scrolled');
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
 });
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}	
+
+	// Scroll to funtion for nav
+	document.getElementById("about").scrollIntoView()
+	document.getElementById("portfolio").scrollIntoView();
+	document.getElementById("contact").scrollIntoView();
+
 
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
