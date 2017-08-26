@@ -333,9 +333,6 @@ footer {
 	.portfolioInfo {
 		width: 100% !important;
 		max-width: 500px !important;
-	}
-
-	.portfolioInfo:nth-child(odd) {
 		margin-right: 0px;
 	}
 }
