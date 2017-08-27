@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 
-/* Establishes main container parameters (content and connect blocks) */
+/* Establishes main container parameters (content blocks) */
 .container {
 	width: 100%;
 	max-width: 1000px;
@@ -112,6 +112,15 @@ h2 {
 h3 {
 	border-bottom: solid 2px #00BCD4;
 	font-size: 32px;
+}
+
+h6 {
+	border-bottom: solid 1px #00BCD4;
+	font-size: 24px;
+	padding-bottom: 5px;
+	margin-bottom: 7px;
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
 }
 
 /* Adjusts line height and paragraphs for the about me section */
@@ -198,22 +207,13 @@ h5 {
 	box-shadow: 3px 3px 6px #666972;
 }
 
-/* Connections box parameters with icons */
-.connect {
-	width: 85%;
-	border: solid 2px #96918d;
-	float: none;
-	margin: 40px auto;
-	padding: 5%;
-	box-shadow: 3px 3px 10px #666972;
-}
 
 /* Establish icon aesthetics and behaviors with hover features */
 .icons {
 	display: inline-block;
 	margin-right: 10px;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	box-shadow: 3px 3px 6px #666972;
 }
 
