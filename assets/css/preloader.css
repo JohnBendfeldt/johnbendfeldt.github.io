@@ -1,4 +1,4 @@
-.preloader{
+.preloader {
     position: fixed;
     top:0;
     left:0;
@@ -8,7 +8,7 @@
     z-index: 99999;
 }
  
-.preloader .preloader-gif{
+.preloader .preloader-gif {
     display: block;
     width: 80px;
     height: 80px;
@@ -18,4 +18,10 @@
     margin: -100px 0 0 -60px;
     background-image: url('../images/preloader.gif');   
     background-size: 80px;
+}
+
+@media screen and (max-width: 675px) {
+    .preloader .preloader-gif {
+        margin: 0px;
+    }
 }
