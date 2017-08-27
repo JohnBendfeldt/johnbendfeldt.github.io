@@ -13,13 +13,14 @@
     width: 80px;
     height: 80px;
     position: absolute;
+    transform: rotateY(180deg);
     top: 50%;
     left: 50%;
-    margin: -100px 0 0 -60px;
+    margin: -100px 0 0 -50px;
     background-image: url('../images/preloader.gif');   
     background-size: 80px;
 }
-
+/* Makes the preloader centered on phones */
 @media screen and (max-width: 675px) {
     .preloader .preloader-gif {
         margin: -50px 0 0 -30px;

@@ -139,8 +139,7 @@ h5 {
 }
 /* Establishes Portfolio entry behavior */
 .portfolioInfo {
-	max-width: 230px !important;
-	width: 100%;
+	width: 230px !important;
 	margin: 15px 40px 15px 0px;
 	padding: 4px;
 	display: inline-block;
@@ -263,20 +262,18 @@ h4 {
 			.5px .5px 0 #FFFFFF;
 }
 
-
 /* Establishes sticky footer */
 footer {
 	background-color: #666666;
-	opacity: 0.85;
 	text-align: center;
 	border-top: solid 6px #00BCD4;
-	position: fixed;
+	position: static;
 	z-index: 995 !important;
 	width: 100%;
 	bottom: 0px;
 	padding: 5px 0px;
-	color: #BFBEBC;
-	font-size: 10px;
+	color: #fff;
+	font-size: 12px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	box-shadow: 3px -3px 10px #7B7B7B;
 }
@@ -298,7 +295,7 @@ footer {
 
 }
 
-/* Establishes page behavior when screen is 920px or smaller */
+/* Establishes page behavior when screen is 928px or smaller */
 @media screen and (max-width: 928px) {
 
 	.logo {
@@ -315,24 +312,29 @@ footer {
 	}
 }
 
-/* When the screen is smaller than 640px */
+/* When the screen is smaller than 675px */
 @media screen and (max-width: 675px) {
 	
 	.logo {
 		margin-left: 0px;
 	}
+
 	#face, .rotate-container, .front, .back {
 		max-width: 600px !important;
 		margin-bottom: 35px;
 	}
 
-	h5 {
-		padding: 5px;
-	}
-
 	.portfolioInfo {
-		width: 100%;
+		width: 100% !important;
 		max-width: 450px !important;
 		margin: 15px 0px 15px 0px !important;
+	}
+}
+
+/* When the screen is smaller than 556px */
+@media screen and (max-width: 556px) {
+
+	.portfolioInfo {
+		width: 230px !important;
 	}
 }
