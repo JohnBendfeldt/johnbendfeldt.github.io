@@ -333,6 +333,6 @@ footer {
 	.portfolioInfo {
 		width: 100%;
 		max-width: 450px !important;
-		margin-right: 15px;
+		margin: 15px 0px 15px 0px !important;
 	}
 }
