@@ -36,7 +36,7 @@ header {
     transition: top 0.2s ease-in-out;
     width: 100%;
 }
-
+/* Establishes the header class for showing it. Navv-down moves the header out of view. */
 .nav-up {
     top: -88px;
 }
