@@ -1,270 +1,538 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>John Bendfeldt</title>
-	<!-- Reset stylesheet -->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<!-- My StyleSheet -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
-	<!-- Preloader.css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/preloader.css" media="screen">
-	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-	<link rel="manifest" href="manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="assets/favicons/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-</head>
-	
-<body>
-	<div class="preloader"><span class="preloader-gif"></span></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>John Bendfeldt</title>
+    <!-- Reset stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!-- My StyleSheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/style.css"
+      media="screen"
+    />
+    <!-- Preloader.css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/preloader.css"
+      media="screen"
+    />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/favicons/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-	<header class="nav-down">
-				<div class="banner">
-					<a href="index.html"><img src="assets/images/transparent_letter_logo.png" alt="John Bendfeldt logo" title="John Bendfeldt" class="logo"></a>
-		<!-- Navigational links. -->
-					<nav>
-						<a href="#about">About</a>
-						<br>
-						<a href="#portfolio">Portfolio</a>
-						<br>
-						<a href="#contact">Contact</a>
-					</nav>
-				</div>
-	</header>
-<!-- Content -->
-	<div class="container">
-		<!-- For scrollto to work with navbar -->
-		<div id="about"></div>
-		<section class="content">
-			<h2>John Bendfeldt</h2>
-			<br>
-			<img src="assets/images/austin.gif" id="face" />
-			<div class="rotate-container" ontouchstart="this.classList.toggle('hover');">
-				<div class="rotate">
-					<div class="front">
-						<img src="assets/images/myface.jpg" id="face" class="boxShadow" />
-					</div>
+  <body>
+    <div class="preloader"><span class="preloader-gif"></span></div>
 
-					<div class="back">
-						<img src="assets/images/Andi_and_me.jpg" id="face" class="boxShadow" />
-					</div>
-				</div>
-			</div>
-			<p>I love working with people and around technology. I enjoy having technology integrated into my life, whether it’s my smartwatch or Android Auto in my car. 
-				From my love of technology, I have learned what makes a great product or a strong brand, whether it’s Google redefining how we do business or Amazon assisting with daily life. 
-				It’s important to me, therefore, to see what the newest technologies are and to become familiar with them. 
-				I want to be able to assist in creating or sustaining a strong business environment that pushes the limits of what we currently have. 
-				<br>Through years of working in management at Domino’s, I saw how apps and technology have the ability to improve lives, strengthen connections and build stronger businesses. 
-				I moved to Austin in 2015 to pursue my passion for web development and integrated technologies. I currently work as a Software Engineer at Volusion helping to maintain platform stability and updating features.
-			<br>
-			<br>
-			<h3>Technical Skills</h3>
-			<br>
+    <header class="nav-down">
+      <div class="banner">
+        <a href="index.html"
+          ><img
+            src="assets/images/transparent_letter_logo.png"
+            alt="John Bendfeldt logo"
+            title="John Bendfeldt"
+            class="logo"
+        /></a>
+        <!-- Navigational links. -->
+        <nav>
+          <a href="#about">About</a>
+          <br />
+          <a href="#portfolio">Portfolio</a>
+          <br />
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Content -->
+    <div class="container">
+      <!-- For scrollto to work with navbar -->
+      <div id="about"></div>
+      <section class="content">
+        <h2>John Bendfeldt</h2>
+        <br />
+        <img src="assets/images/austin.gif" id="face" />
+        <div
+          class="rotate-container"
+          ontouchstart="this.classList.toggle('hover');"
+        >
+          <div class="rotate">
+            <div class="front">
+              <img src="assets/images/myface.jpg" id="face" class="boxShadow" />
+            </div>
 
-			<p>C#, ASP.NET, VBScript, Node.js, JavaScript, jQuery, React.js, React Native, React Redux, GIT, Github, Tower, MongoDB, MySQL, Firebase, HTML, CSS, CSS Animation, ES6, 
-				Responsive Web Design, Bootstrap, Media Queries, APIs, JSON, AJAX, AXIOS, the command line, Computer science fundamentals, writing tests, Ubuntu, virtual machines, GIMP, Pencil Wireframes, Google Analytics, Amazon Web Services, Adobe Photoshop and Premiere
-			<br>Familiar with WebEX, Skype, and other conference call applications </p>
-			<br>
+            <div class="back">
+              <img
+                src="assets/images/Andi_and_me.jpg"
+                id="face"
+                class="boxShadow"
+              />
+            </div>
+          </div>
+        </div>
+        <p>
+          I love working with people and around technology. I enjoy having
+          technology integrated into my life, whether it’s my smartwatch or
+          Android Auto in my car. From my love of technology, I have learned
+          what makes a great product or a strong brand, whether it’s Google
+          redefining how we do business or Amazon assisting with daily life.
+          It’s important to me, therefore, to see what the newest technologies
+          are and to become familiar with them. I want to be able to assist in
+          creating or sustaining a strong business environment that pushes the
+          limits of what we currently have. <br />Through years of working in
+          management at Domino’s, I saw how apps and technology have the ability
+          to improve lives, strengthen connections and build stronger
+          businesses. I moved to Austin in 2015 to pursue my passion for web
+          development and integrated technologies. I currently work as a
+          Software Engineer at Volusion helping to maintain platform stability
+          and updating features.
+          <br />
+          <br />
+        </p>
 
-			<h6>Connect with Me</h6>
-			<a href="https://github.com/johnbendfeldt" target="_blank">
-				<img src="assets/images/Github-icon.png" class="icons" alt="Github-icon" title="GitHub" />
-			</a>
-			<a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank">
-				<img src="assets/images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn" />
-			</a>
-			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank">
-				<img src="assets/images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow" />
-			</a>
-		</section>
-		<!-- Portfolio Section -->
+        <h3>Technical Skills</h3>
+        <br />
 
-		<section class="content">
-			<!-- For scrollto to work with navbar -->
-			<div id="portfolio"></div>
-			<h2>Portfolio</h2>
-		<br>
-<!-- Images for the main content block -->
-		<div class="portfolioInfo">
-			<a href="https://johnbendfeldt.github.io/starwarsrpg/" target="_blank">
-				<div class="image">
-					<img src="assets/images/starwarsrpg.gif" class="work" alt="Star Wars RPG" title="Star Wars RPG">
-					<h4>Star Wars<br>RPG</h4>
-				</div>
-			</a>
-			<h5>A Star Wars JavaScript based game that allows users to pick a hero to defeat the other characters. Each character has health points and an attack mode that depends on whether or not they are the hero. Each time there is a clash each character takes damage. Once the health points run out the character is defeated and the user selects another opponent. 
-			<br>
-			<br>
-			<span style="font-weight:900 !important;">Technologies Utilized:</span>
-			<br>JavaScript, jQuery, CSS animation, HTML5</h5>
-		</div>
+        <p>
+          JavaScript, Node, React.js, git, MongoDB, SQL, Angular.js, TypeScript,
+          Scrum methodology, Unit and Integration testing
+        </p>
+        <br />
 
-		<div class="portfolioInfo">
-			<a href="https://jimmytrivia.github.io/" target="_blank">
-				<div class="image">
-					<img src="assets/images/jjtrivia.gif" class="work" alt="Jimmy John's Trivia" title="Jimmy John's Trivia">
-					<h4>Jimmy John's<br>Menu Quiz</h4>
-				</div>
-			</a>
-			<h5>A Jimmy John’s Quiz to help trainees learn the menu. Users have 15 seconds to answer each question. If they guess wrong or run out of time the correct answer appears and then moves on to the next question. The number of correct and incorrect answers is displayed at the end announcing whether or not the user is a Menu Master.
-			<br>
-			<br>
-			<span style="font-weight:900 !important;">Technologies Utilized:</span>
-			<br>JavaScript, jQuery, CSS, HTML5</h5>
-		</div>
+        <h6>Connect with Me</h6>
+        <a href="https://github.com/johnbendfeldt" target="_blank">
+          <img
+            src="assets/images/Github-icon.png"
+            class="icons"
+            alt="Github-icon"
+            title="GitHub"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank">
+          <img
+            src="assets/images/linkedin-icon.png"
+            class="icons"
+            alt="linkedin-icon"
+            title="LinkedIn"
+          />
+        </a>
+        <a
+          href="http://stackoverflow.com/users/7700030/john-bendfeldt"
+          target="_blank"
+        >
+          <img
+            src="assets/images/stackoverflow-icon.png"
+            class="icons"
+            alt="stackoverflow-icon"
+            title="Stackoverflow"
+          />
+        </a>
+      </section>
+      <!-- Portfolio Section -->
 
-		<div class="portfolioInfo">
-			<a href="https://johnsburgersequel.herokuapp.com/" target="_blank">
-				<div class="image">
-					<img src="assets/images/burgers.gif" class="work" alt="Sequelized Burger Bar" title="Sequelized Burger Bar">
-					<h4>John’s Burger Bar</h4>
-				</div>
-			</a>
-			<h5>A burger ordering app that keeps track of orders that are placed and eaten using Sequelize with MySQL. The user inputs the name of the burger they ate or want to order and it is displayed in the correct location. Users can delete burgers they no longer want or order them again after they are pushed into the eaten section. 
-			<br>
-			<br>
-			<span style="font-weight:900 !important;">Technologies Utilized:</span>
-			<br>JavaScript, CSS, HTML5, Express.js, Node.js, Heroku, JawsDB, MySQL, Sequelize</h5>
-		</div>
+      <section class="content">
+        <!-- For scrollto to work with navbar -->
+        <div id="portfolio"></div>
+        <h2>Portfolio</h2>
+        <br />
+        <!-- Images for the main content block -->
+        <div class="portfolioInfo">
+          <a
+            href="https://johnbendfeldt.github.io/starwarsrpg/"
+            target="_blank"
+          >
+            <div class="image">
+              <img
+                src="assets/images/starwarsrpg.gif"
+                class="work"
+                alt="Star Wars RPG"
+                title="Star Wars RPG"
+              />
+              <h4>Star Wars<br />RPG</h4>
+            </div>
+          </a>
+          <h5>
+            A Star Wars JavaScript based game that allows users to pick a hero
+            to defeat the other characters. Each character has health points and
+            an attack mode that depends on whether or not they are the hero.
+            Each time there is a clash each character takes damage. Once the
+            health points run out the character is defeated and the user selects
+            another opponent.
+            <br />
+            <br />
+            <span style="font-weight:900 !important;"
+              >Technologies Utilized:</span
+            >
+            <br />JavaScript, jQuery, CSS animation, HTML5
+          </h5>
+        </div>
 
-		<div class="portfolioInfo">
-			<a href="https://stumput.github.io/stumpPage.html" target="_blank">
-				<div class="image">
-					<img src="assets/images/stump.gif" class="work" alt="STUMP App" title="STUMP App">
-					<h4>STUMP App</h4>
-				</div>
-			</a>
-			<h5>A student meetup app to help groups schedule meeting times and locations. Users can select their availability using Moment.js and find the nearest coffee shop with Wi-Fi using geolocation and Google Places API. 
-			<br>
-			<br>
-			<span style="font-weight:900 !important;">Technologies Utilized:</span>
-			<br>JavaScript, CSS, HTML5, Geolocation, Firebase, Google API, Moment.js</h5>
-		</div>
+        <div class="portfolioInfo">
+          <a href="https://jimmytrivia.github.io/" target="_blank">
+            <div class="image">
+              <img
+                src="assets/images/jjtrivia.gif"
+                class="work"
+                alt="Jimmy John's Trivia"
+                title="Jimmy John's Trivia"
+              />
+              <h4>Jimmy John's<br />Menu Quiz</h4>
+            </div>
+          </a>
+          <h5>
+            A Jimmy John’s Quiz to help trainees learn the menu. Users have 15
+            seconds to answer each question. If they guess wrong or run out of
+            time the correct answer appears and then moves on to the next
+            question. The number of correct and incorrect answers is displayed
+            at the end announcing whether or not the user is a Menu Master.
+            <br />
+            <br />
+            <span style="font-weight:900 !important;"
+              >Technologies Utilized:</span
+            >
+            <br />JavaScript, jQuery, CSS, HTML5
+          </h5>
+        </div>
 
-		<div class="portfolioInfo">
-			<a href="https://johnbendfeldt.github.io/TrainScheduler/" target="_blank">
-				<div class="image">
-					<img src="assets/images/trainscheduler.gif" class="work" alt="Train Scheduler" title="Train Scheduler">
-					<h4>Train Scheduler</h4>
-				</div>
-			</a>
-			<h5>A train scheduling app that utilizes Firebase and Moment.js to schedule train rides based on previous user input. Each train stays in the database and shows when the next one will arrive. 
-			<br>
-			<br>
-			<span style="font-weight:900 !important;">Technologies Utilized:</span>
-			<br>JavaScript, CSS, HTML5, jQuery, FIrebase, Moment.js</h5>
-		</div>
+        <div class="portfolioInfo">
+          <a href="https://johnsburgersequel.herokuapp.com/" target="_blank">
+            <div class="image">
+              <img
+                src="assets/images/burgers.gif"
+                class="work"
+                alt="Sequelized Burger Bar"
+                title="Sequelized Burger Bar"
+              />
+              <h4>John’s Burger Bar</h4>
+            </div>
+          </a>
+          <h5>
+            A burger ordering app that keeps track of orders that are placed and
+            eaten using Sequelize with MySQL. The user inputs the name of the
+            burger they ate or want to order and it is displayed in the correct
+            location. Users can delete burgers they no longer want or order them
+            again after they are pushed into the eaten section.
+            <br />
+            <br />
+            <span style="font-weight:900 !important;"
+              >Technologies Utilized:</span
+            >
+            <br />JavaScript, CSS, HTML5, Express.js, Node.js, Heroku, JawsDB,
+            MySQL, Sequelize
+          </h5>
+        </div>
 
-		<div class="portfolioInfo">
-			<a href="https://johnbendfeldt.github.io/Hangman-Game/" target="_blank">
-				<div class="image">
-					<img src="assets/images/hangman.gif" class="work" alt="Hangman Game" title="Hangman Game">
-					<h4>Hangman Game</h4>
-				</div>
-			</a>
-			<h5>A Hangman game that uses jQuery to display the letters that users guess. Each time the user wins the word is revealed and victory audio is played. When the user runs out of guesses the correct word appears and a sad song plays.
-			<br>
-			<br>
-			<span style="font-weight:900 !important;">Technologies Utilized:</span>
-			<br>JavaScript, CSS, HTML5, jQuery</h5>
-		</div>
+        <div class="portfolioInfo">
+          <a href="https://stumput.github.io/stumpPage.html" target="_blank">
+            <div class="image">
+              <img
+                src="assets/images/stump.gif"
+                class="work"
+                alt="STUMP App"
+                title="STUMP App"
+              />
+              <h4>STUMP App</h4>
+            </div>
+          </a>
+          <h5>
+            A student meetup app to help groups schedule meeting times and
+            locations. Users can select their availability using Moment.js and
+            find the nearest coffee shop with Wi-Fi using geolocation and Google
+            Places API.
+            <br />
+            <br />
+            <span style="font-weight:900 !important;"
+              >Technologies Utilized:</span
+            >
+            <br />JavaScript, CSS, HTML5, Geolocation, Firebase, Google API,
+            Moment.js
+          </h5>
+        </div>
 
-		<div class="portfolioInfo">
-			<a href="https://johnbendfeldt.github.io/ChrisCornell/" target="_blank">
-				<div class="image">
-					<img src="assets/images/chriscornell.gif" class="work" alt="Chris Cornell Tribute" title="Chris Cornell Tribute">
-					<h4>Chris Cornell<br>Tribute</h4>
-				</div>
-			</a>
-			<h5>A tribute to Chris Cornell that uses parallax scrolling to create a fun visual experience.
-			<br>
-			<br>
-			<span style="font-weight:900 !important;">Technologies Utilized:</span>
-			<br>CSS, HTML5, Parallax Scrolling</h5>
-		</div>
-			
-		<div class="portfolioInfo">
-			<a href="https://johnbendfeldt.github.io/starwarscss/" target="_blank">
-				<div class="image">
-					<img src="assets/images/starwarscss.gif" class="work" alt="Star Wars CSS" title="Star Wars CSS">
-					<h4>Star Wars CSS Animation</h4>
-				</div>
-			</a>
-			<h5>A Star Wars animation sequence using only CSS animation. The Star Wars theme plays over a scene of X-Wings being chased by Tie Fighters to a backdrop of stars that create a moving three-dimensional feeling.
-			<br>
-			<br>
-			<span style="font-weight:900 !important;">Technologies Utilized:</span>
-			<br>CSS, HTML5, CSS Animation</h5>
-		</div>
+        <div class="portfolioInfo">
+          <a
+            href="https://johnbendfeldt.github.io/TrainScheduler/"
+            target="_blank"
+          >
+            <div class="image">
+              <img
+                src="assets/images/trainscheduler.gif"
+                class="work"
+                alt="Train Scheduler"
+                title="Train Scheduler"
+              />
+              <h4>Train Scheduler</h4>
+            </div>
+          </a>
+          <h5>
+            A train scheduling app that utilizes Firebase and Moment.js to
+            schedule train rides based on previous user input. Each train stays
+            in the database and shows when the next one will arrive.
+            <br />
+            <br />
+            <span style="font-weight:900 !important;"
+              >Technologies Utilized:</span
+            >
+            <br />JavaScript, CSS, HTML5, jQuery, FIrebase, Moment.js
+          </h5>
+        </div>
 
-		<br>
-		<br>
-		
-		<h6></h6>
-		<a href="https://github.com/johnbendfeldt" target="_blank">
-			<img src="assets/images/Github-icon.png" class="icons" alt="Github-icon" title="GitHub" />
-		</a>
-		<a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank">
-			<img src="assets/images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn" />
-		</a>
-		<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank">
-			<img src="assets/images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow" />
-		</a>
-		</section>
+        <div class="portfolioInfo">
+          <a
+            href="https://johnbendfeldt.github.io/Hangman-Game/"
+            target="_blank"
+          >
+            <div class="image">
+              <img
+                src="assets/images/hangman.gif"
+                class="work"
+                alt="Hangman Game"
+                title="Hangman Game"
+              />
+              <h4>Hangman Game</h4>
+            </div>
+          </a>
+          <h5>
+            A Hangman game that uses jQuery to display the letters that users
+            guess. Each time the user wins the word is revealed and victory
+            audio is played. When the user runs out of guesses the correct word
+            appears and a sad song plays.
+            <br />
+            <br />
+            <span style="font-weight:900 !important;"
+              >Technologies Utilized:</span
+            >
+            <br />JavaScript, CSS, HTML5, jQuery
+          </h5>
+        </div>
 
-		<!-- Contact section -->
-		<section class="content">
-			<!-- For scrollto to work with navbar -->
-			<div id="contact"></div>
-			<h2>Contact</h2>
-			<p style="font-weight:900;">Email me at jfbendfeldt@gmail.com or </p>
-  			<a href="https://plus.google.com/+JohnBendfeldt" target="_blank">
-  				<img src="assets/images/google.jpg" alt="John Bendfeldt google plus" title="Google+" width="100%" class="boxShadow" />
-  				<p style="font-weight:900;">Find me on Google+</p>
-			</a>
+        <div class="portfolioInfo">
+          <a
+            href="https://johnbendfeldt.github.io/ChrisCornell/"
+            target="_blank"
+          >
+            <div class="image">
+              <img
+                src="assets/images/chriscornell.gif"
+                class="work"
+                alt="Chris Cornell Tribute"
+                title="Chris Cornell Tribute"
+              />
+              <h4>Chris Cornell<br />Tribute</h4>
+            </div>
+          </a>
+          <h5>
+            A tribute to Chris Cornell that uses parallax scrolling to create a
+            fun visual experience.
+            <br />
+            <br />
+            <span style="font-weight:900 !important;"
+              >Technologies Utilized:</span
+            >
+            <br />CSS, HTML5, Parallax Scrolling
+          </h5>
+        </div>
 
-			<br>
-			
-			<h6></h6>
-			<a href="https://github.com/johnbendfeldt" target="_blank">
-				<img src="assets/images/Github-icon.png" class="icons" alt="Github-icon" title="GitHub" />
-			</a>
-			<a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank">
-				<img src="assets/images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn" />
-			</a>
-			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank">
-				<img src="assets/images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow" />
-			</a>
-		</section>
+        <div class="portfolioInfo">
+          <a
+            href="https://johnbendfeldt.github.io/starwarscss/"
+            target="_blank"
+          >
+            <div class="image">
+              <img
+                src="assets/images/starwarscss.gif"
+                class="work"
+                alt="Star Wars CSS"
+                title="Star Wars CSS"
+              />
+              <h4>Star Wars CSS Animation</h4>
+            </div>
+          </a>
+          <h5>
+            A Star Wars animation sequence using only CSS animation. The Star
+            Wars theme plays over a scene of X-Wings being chased by Tie
+            Fighters to a backdrop of stars that create a moving
+            three-dimensional feeling.
+            <br />
+            <br />
+            <span style="font-weight:900 !important;"
+              >Technologies Utilized:</span
+            >
+            <br />CSS, HTML5, CSS Animation
+          </h5>
+        </div>
 
-	</div>
-</body>
-<footer>
-	© Copyright 2017 John Bendfeldt
-</footer>
+        <br />
+        <br />
 
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <h6></h6>
+        <a href="https://github.com/johnbendfeldt" target="_blank">
+          <img
+            src="assets/images/Github-icon.png"
+            class="icons"
+            alt="Github-icon"
+            title="GitHub"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank">
+          <img
+            src="assets/images/linkedin-icon.png"
+            class="icons"
+            alt="linkedin-icon"
+            title="LinkedIn"
+          />
+        </a>
+        <a
+          href="http://stackoverflow.com/users/7700030/john-bendfeldt"
+          target="_blank"
+        >
+          <img
+            src="assets/images/stackoverflow-icon.png"
+            class="icons"
+            alt="stackoverflow-icon"
+            title="Stackoverflow"
+          />
+        </a>
+      </section>
 
-<!-- Preloader js-->
-<script type="text/javascript" src="assets/js/preloader.js"></script>
+      <!-- Contact section -->
+      <section class="content">
+        <!-- For scrollto to work with navbar -->
+        <div id="contact"></div>
+        <h2>Contact</h2>
+        <p style="font-weight:900;">Email me at jfbendfeldt@gmail.com or</p>
+        <a href="https://plus.google.com/+JohnBendfeldt" target="_blank">
+          <img
+            src="assets/images/google.jpg"
+            alt="John Bendfeldt google plus"
+            title="Google+"
+            width="100%"
+            class="boxShadow"
+          />
+          <p style="font-weight:900;">Find me on Google+</p>
+        </a>
 
-<!-- My custom js -->
-<script type="text/javascript" src="assets/js/index.js"></script>
+        <br />
+
+        <h6></h6>
+        <a href="https://github.com/johnbendfeldt" target="_blank">
+          <img
+            src="assets/images/Github-icon.png"
+            class="icons"
+            alt="Github-icon"
+            title="GitHub"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank">
+          <img
+            src="assets/images/linkedin-icon.png"
+            class="icons"
+            alt="linkedin-icon"
+            title="LinkedIn"
+          />
+        </a>
+        <a
+          href="http://stackoverflow.com/users/7700030/john-bendfeldt"
+          target="_blank"
+        >
+          <img
+            src="assets/images/stackoverflow-icon.png"
+            class="icons"
+            alt="stackoverflow-icon"
+            title="Stackoverflow"
+          />
+        </a>
+      </section>
+    </div>
+  </body>
+  <footer>
+    © Copyright 2017 John Bendfeldt
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Preloader js-->
+  <script type="text/javascript" src="assets/js/preloader.js"></script>
+
+  <!-- My custom js -->
+  <script type="text/javascript" src="assets/js/index.js"></script>
 </html>
